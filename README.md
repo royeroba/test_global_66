@@ -45,15 +45,19 @@ La arquitectura del proyecto está diseñada para ser modular y escalable, sigui
 ## Cómo ejecutar el proyecto
 
 1.  Clonar el repositorio.
-2.  Instalar las dependencias:
+2.  Crear un archivo `.env.local` en la raíz del proyecto y añadir la siguiente variable de entorno:
+    ```
+    VITE_POKEAPI_BASE_URL=https://pokeapi.co/api/v2/
+    ```
+3.  Instalar las dependencias:
     ```bash
     npm install
     ```
-3.  Ejecutar el servidor de desarrollo:
+4.  Ejecutar el servidor de desarrollo:
     ```bash
     npm run dev
     ```
-4.  Para ejecutar los tests:
+5.  Para ejecutar los tests:
     ```bash
     npm run test:unit
     ```
