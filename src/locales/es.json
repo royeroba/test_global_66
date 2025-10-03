@@ -1,0 +1,27 @@
+{
+  "welcome": {
+    "title": "Bienvenido a Pokédex",
+    "description": "La enciclopedia digital creada por el Profesor Oak es una herramienta invaluable para los Entrenadores en el mundo Pokémon.",
+    "getStarted": "Empezar"
+  },
+  "common": {
+    "loading": "Cargando pokémons...",
+    "search": "Buscar",
+    "all": "Todos",
+    "favorites": "Favoritos",
+    "name": "Nombre",
+    "weight": "Peso",
+    "height": "Altura",
+    "types": "Tipos",
+    "shareToMyFriends": "Compartir con mis amigos",
+    "addToFavorites": "Añadir a favoritos",
+    "removeFromFavorites": "Quitar de favoritos",
+    "close": "Cerrar",
+    "goBackHome": "Volver al inicio",
+    "copiedToClipboard": "¡Copiado al portapapeles!"
+  },
+  "emptyState": {
+    "title": "¡Uy!",
+    "description": "¡Parece que te has perdido en tu viaje!"
+  }
+}

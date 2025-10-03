@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@500;700&family=Montserrat:wght@500;700&display=swap');
+@import 'tailwindcss';
+
+:root {
+  --color-primary: #f22539;
+  --color-primary-pressed: #c00e20;
+  --color-yellow: #eca539;
+  --gray-900: #353535;
+  --gray-700: #5e5e5e;
+  --gray-400: #bfbfbf;
+  --gray-200: #e8e8e8;
+  --gray-100: #f5f5f5;
+  --gray-50: #f9f9f9;
+}
+
+@theme {
+  --font-lato:
+    'Lato', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, 'Noto Sans',
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
+  --font-montserrat:
+    'Montserrat', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, 'Noto Sans',
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
+  --leading-100: 1;
+  --leading-140: 1.4;
+  --leading-150: 1.5;
+}
+
+body {
+  font-family: var(--font-lato);
+  color: var(--gray-900);
+}
+
+.font-montserrat {
+  font-family: var(--font-montserrat);
+}
+
+.font-lato {
+  font-family: var(--font-lato);
+}
