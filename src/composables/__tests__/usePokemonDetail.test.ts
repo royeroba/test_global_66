@@ -48,7 +48,7 @@ describe('usePokemonDetail', () => {
     expect(isLoading.value).toBe(false)
     expect(showModal.value).toBe(true)
     expect(detail.value).toEqual(mockPokemon)
-    expect(pokemonApi.getPokemonByName).toHaveBeenCalledWithExactlyOnceWith('pikachu')
+    expect(pokemonApi.getPokemonByName).toHaveBeenCalledExactlyOnceWith('pikachu')
   })
 
   it('should close detail correctly', () => {
@@ -78,7 +78,7 @@ describe('usePokemonDetail', () => {
 
     await onShare()
 
-    expect(mockClipboard).toHaveBeenCalledWithExactlyOnceWith(
+    expect(mockClipboard).toHaveBeenCalledExactlyOnceWith(
       'Name: pikachu, Weight: 60, Height: 40, Types: electric',
     )
     expect(showShareSuccess.value).toBe(true)

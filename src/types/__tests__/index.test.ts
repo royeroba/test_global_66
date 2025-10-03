@@ -9,7 +9,7 @@ describe('Pokemon Types', () => {
       name: 'pikachu',
       height: 40,
       weight: 60,
-      types: [{ slot: 1, type: { name: 'electric', url: 'test' } }],
+      types: [{ type: { name: 'electric' } }],
       sprites: {
         front_default: 'default-image.png',
         other: {
